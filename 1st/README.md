@@ -24,7 +24,7 @@
 
 + 6주차(2/18)
   - Flow-based models 이론 slide7, slide8 
-  - 발표 : 
+  - 발표 : 최동헌, 소준섭
 
 + 7주차(2/25)
   - Flow-based models 실습
