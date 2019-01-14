@@ -3,14 +3,14 @@
 
 ### 운영 계획
 + 1주차(1/7)
-- 과정소개, 생성모델 기초이론
-- slide1, slide2 
-- 발표 : 박수철
+  - 과정소개, 생성모델 기초이론
+  - slide1, slide2 
+  - 발표 : 박수철
 
 + 2주차(1/14)
-- Autoregressive Models 이론
-- slide3, slide4 
-- 발표 : 오영민, 송주영
+  - Autoregressive Models 이론
+  - slide3, slide4 
+  - 발표 : 오영민, 송주영
 
 + 3주차(1/21) : Autoregressive Models 실습
 - 코드구현 : 전준형, 김낙일
