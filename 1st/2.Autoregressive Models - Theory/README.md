@@ -29,3 +29,9 @@
 ### 블로그
   + Autoregressive Networks: the Obscure Kind of Generative Network
   https://medium.com/intuitionmachine/voice-style-transfer-using-deep-learning-d173f1608af5
+
+### KL-Divergence 참고자료
+  + Pattern Recognition and Machine Learning, Christopher Bishop, p.468-469 <br/>
+  http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+  + Deep Learning Book, Ian Goodfellow, p.76 <br/>
+  https://www.deeplearningbook.org/contents/prob.html

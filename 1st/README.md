@@ -24,7 +24,7 @@
 
 + 6주차(2/18)
   - Flow-based models 이론 slide7, slide8 
-  - 발표 : 
+  - 발표 : 최동헌, 소준섭
 
 + 7주차(2/25)
   - Flow-based models 실습
@@ -46,4 +46,4 @@
   - Energy-based Models 실습
   - 코드구현 :
 
-![structure](https://eventusstorage.blob.core.windows.net/evs/Image/modu/4648/ProjectInfo/9776eefe191b41bfb473d9396e50f674.jpg)
+![curriculum](./pics/curriculum.jpg)
