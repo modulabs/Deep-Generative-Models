@@ -31,11 +31,11 @@
   - 코드구현 : 
 
 + 8주차(3/4)
-  - Generative Adversarial Notworks 이론 slide9, slide10
+  - Generative Adversarial Networks 이론 slide9, slide10
   - 발표 :
 
 + 9주차(3/11)
-  - Generative Adversarial Notworks 실습
+  - Generative Adversarial Networks 실습
   - 코드구현 :
 
 + 10주차(3/18)
