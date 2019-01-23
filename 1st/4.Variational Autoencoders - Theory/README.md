@@ -4,6 +4,16 @@
   + slide6 http://cs236.stanford.edu/assets/slides/cs236_lecture6.pdf
 
 ## 참고자료
+### textbooks
+  + Deep Learning Book, Ian Goodfellow, p.693 <br/>
+  https://www.deeplearningbook.org/contents/generative_models.html
+  
 ### 논문
+  + Auto-Encoding Variational Bayes <br/>
+  https://arxiv.org/abs/1312.6114
+  + Tutorial on Variational Autoencoders <br/>
+  https://arxiv.org/abs/1606.05908
+  
 ### 슬라이드
+
 ### 블로그
