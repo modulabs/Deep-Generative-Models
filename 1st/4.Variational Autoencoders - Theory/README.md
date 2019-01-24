@@ -17,3 +17,9 @@
 ### 슬라이드
 
 ### 블로그
+
+### 비디오
+  + K-means and Gaussian Mixture Model
+  + (기계 학습, Machine Learning) Week 8 K-Means Clustering and Gaussian Mixture Model
+  https://www.youtube.com/playlist?list=PLYo1CP6zVmLKqkHpdA20wPKTT0PheGe38
+  
