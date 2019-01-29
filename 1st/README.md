@@ -14,7 +14,7 @@
   - Autoregressive Models 실습
   - 코드구현 : 전준형, 김낙일
 
-+ 4주차(2/4)
++ 4주차(1/28)
   - Variational Autoencoders 이론 slide5, slide6 
   - 발표 : 박정현, 이창호
 
