@@ -19,14 +19,24 @@
 ### 블로그
 
 ### 비디오
+## GMM
   + K-means and Gaussian Mixture Model <br/>
   기계 학습, Machine Learning) Week 8 K-Means Clustering and Gaussian Mixture Model, 문일철 <br/>
   https://www.youtube.com/playlist?list=PLYo1CP6zVmLKqkHpdA20wPKTT0PheGe38
-  + Variational Inference 
+  + Gaussian Mixture Models - The Math of Intelligence <br/>
+  https://youtu.be/JNlEIEwe-Cg
+  
+## Expectation-Maximization Algorithm
+  + EM Algorithm for Latent Variable Models, David S. Rosenberg <br/>
+  https://youtu.be/lMShR1vjbUo
+   
+## Variational Inference 
   (기계학습, Machine Learning) Week 1 Variational Inference, 문일철 <br/>
   https://www.youtube.com/channel/UC9caTTXVw19PtY07es58NDg/videos
-  + Variational Autoencoder <br/>
+  
+## Variational Autoencoder <br/>
   Lecture 13 | Generative Models, CS231n <br/>
   https://www.youtube.com/watch?v=5WoItGTWV54
-  +
+  Inference in Latent Variable Models <br/>
+  https://youtu.be/ocQCJtNq3P4
   
