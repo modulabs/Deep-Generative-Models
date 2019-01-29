@@ -31,12 +31,12 @@
   https://youtu.be/lMShR1vjbUo
    
 ## Variational Inference 
-  (기계학습, Machine Learning) Week 1 Variational Inference, 문일철 <br/>
+  + (기계학습, Machine Learning) Week 1 Variational Inference, 문일철 <br/>
   https://www.youtube.com/channel/UC9caTTXVw19PtY07es58NDg/videos
   
 ## Variational Autoencoder <br/>
-  Lecture 13 | Generative Models, CS231n <br/>
+  + Lecture 13 | Generative Models, CS231n <br/>
   https://www.youtube.com/watch?v=5WoItGTWV54
-  Inference in Latent Variable Models <br/>
+  + Inference in Latent Variable Models <br/>
   https://youtu.be/ocQCJtNq3P4
   
