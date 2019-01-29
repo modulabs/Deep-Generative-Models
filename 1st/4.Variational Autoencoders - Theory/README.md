@@ -14,10 +14,6 @@
   + Tutorial on Variational Autoencoders <br/>
   https://arxiv.org/abs/1606.05908
   
-### 슬라이드
-
-### 블로그
-
 ### 비디오
 ## GMM
   + K-means and Gaussian Mixture Model <br/>
