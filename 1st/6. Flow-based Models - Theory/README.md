@@ -10,6 +10,8 @@
   https://arxiv.org/abs/1410.8516
   + Density estimation using Real NVP <br/>
   https://arxiv.org/abs/1605.08803
+  + Improving Variational Inference with Inverse Autoregressive Flow <br/>
+  https://arxiv.org/abs/1606.04934
   + Masked Autoregressive Flow for Density Estimation <br/>
   https://arxiv.org/abs/1705.07057
   + Parallel WaveNet: Fast High-Fidelity Speech Synthesis <br/>
