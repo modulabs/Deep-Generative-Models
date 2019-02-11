@@ -1,7 +1,7 @@
 # 6.Flow based Models - 이론
 ## 발표자료
-  + slide7 http://cs236.stanford.edu/assets/slides/cs236_lecture7.pdf
-  + slide8 http://cs236.stanford.edu/assets/slides/cs236_lecture8.pdf
+  + slide7 https://deepgenerativemodels.github.io/assets/slides/cs236_lecture7.pdf
+  + slide8 https://deepgenerativemodels.github.io/assets/slides/cs236_lecture8.pdf
 
 ## 참고자료
 ### 논문
