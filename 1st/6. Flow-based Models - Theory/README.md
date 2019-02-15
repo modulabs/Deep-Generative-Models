@@ -18,6 +18,8 @@
   https://arxiv.org/abs/1711.10433
   
   더보면 좋은 논문
+  + Variational Inference with Normalizing Flows <br/>
+  https://arxiv.org/abs/1505.05770
   + **Glow: Generative Flow with Invertible 1x1 Convolutions** <br/>
   **https://arxiv.org/abs/1807.03039**
   + WaveGlow: A Flow-based Generative Network for Speech Synthesis <br/>
