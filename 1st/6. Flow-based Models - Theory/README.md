@@ -25,4 +25,8 @@
   + WaveGlow: A Flow-based Generative Network for Speech Synthesis <br/>
   https://arxiv.org/abs/1811.00002
   
+  블로그
+  + Flow-based Deep Generative Models <br/>
+  https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html
+  
   
