@@ -28,5 +28,8 @@
   블로그
   + Flow-based Deep Generative Models <br/>
   https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html
-  
+  + Normalizing Flows Tutorial, Part 1: Distributions and Determinants <br/>
+  https://blog.evjang.com/2018/01/nf1.html
+  + Normalizing Flows Tutorial, Part 2: Modern Normalizing Flows <br/>
+  https://blog.evjang.com/2018/01/nf2.html
   
