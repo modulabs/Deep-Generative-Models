@@ -1,6 +1,5 @@
 # 7.Flow-based Models - 실습
 ## 구현 모델
-
   + 김낙일 NICE: Non-linear Independent Components Estimation <br/>
   https://arxiv.org/abs/1410.8516
   + 윤재영 Density estimation using Real NVP <br/>
