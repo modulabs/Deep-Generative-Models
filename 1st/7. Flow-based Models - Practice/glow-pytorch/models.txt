@@ -1,0 +1,1954 @@
+DataParallel (
+  (module): Glow(
+    (blocks): ModuleList(
+      (0): Block(
+        (flows): ModuleList(
+          (0): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (1): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (2): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (3): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (4): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (5): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (6): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (7): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (8): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (9): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (10): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (11): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (12): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (13): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (14): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (15): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (16): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (17): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (18): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (19): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (20): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (21): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (22): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (23): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (24): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (25): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (26): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (27): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (28): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (29): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (30): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (31): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(6, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 6, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+        )
+        (prior): ZeroConv2d(
+          (conv): Conv2d(6, 12, kernel_size=(3, 3), stride=(1, 1))
+        )
+      )
+      (1): Block(
+        (flows): ModuleList(
+          (0): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (1): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (2): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (3): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (4): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (5): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (6): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (7): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (8): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (9): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (10): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (11): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (12): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (13): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (14): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (15): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (16): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (17): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (18): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (19): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (20): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (21): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (22): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (23): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (24): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (25): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (26): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (27): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (28): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (29): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (30): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (31): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(12, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 12, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+        )
+        (prior): ZeroConv2d(
+          (conv): Conv2d(12, 24, kernel_size=(3, 3), stride=(1, 1))
+        )
+      )
+      (2): Block(
+        (flows): ModuleList(
+          (0): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (1): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (2): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (3): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (4): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (5): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (6): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (7): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (8): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (9): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (10): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (11): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (12): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (13): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (14): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (15): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (16): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (17): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (18): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (19): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (20): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (21): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (22): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (23): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (24): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (25): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (26): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (27): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (28): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (29): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (30): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (31): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(24, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 24, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+        )
+        (prior): ZeroConv2d(
+          (conv): Conv2d(24, 48, kernel_size=(3, 3), stride=(1, 1))
+        )
+      )
+      (3): Block(
+        (flows): ModuleList(
+          (0): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (1): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (2): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (3): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (4): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (5): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (6): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (7): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (8): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (9): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (10): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (11): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (12): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (13): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (14): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (15): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (16): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (17): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (18): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (19): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (20): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (21): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (22): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (23): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (24): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (25): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (26): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (27): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (28): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (29): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (30): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+          (31): Flow(
+            (actnorm): ActNorm()
+            (invconv): InvConv2dLU()
+            (coupling): AffineCoupling(
+              (net): Sequential(
+                (0): Conv2d(48, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+                (1): ReLU()
+                (2): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1))
+                (3): ReLU()
+                (4): ZeroConv2d(
+                  (conv): Conv2d(512, 48, kernel_size=(3, 3), stride=(1, 1))
+                )
+              )
+            )
+          )
+        )
+        (prior): ZeroConv2d(
+          (conv): Conv2d(96, 192, kernel_size=(3, 3), stride=(1, 1))
+        )
+      )
+    )
+  ), weights=((1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (1, 12, 1, 1), (12, 12), (12,), (12, 12), (512, 6, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 6, 1, 1), (6, 512, 3, 3), (6,), (1, 12, 1, 1), (12, 6, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (1, 24, 1, 1), (24, 24), (24,), (24, 24), (512, 12, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 12, 1, 1), (12, 512, 3, 3), (12,), (1, 24, 1, 1), (24, 12, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (1, 48, 1, 1), (48, 48), (48,), (48, 48), (512, 24, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 24, 1, 1), (24, 512, 3, 3), (24,), (1, 48, 1, 1), (48, 24, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 96, 1, 1), (1, 96, 1, 1), (96, 96), (96,), (96, 96), (512, 48, 3, 3), (512,), (512, 512, 1, 1), (512,), (1, 48, 1, 1), (48, 512, 3, 3), (48,), (1, 192, 1, 1), (192, 96, 3, 3), (192,)), parameters=61214032
+)
