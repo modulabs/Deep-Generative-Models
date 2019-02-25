@@ -26,6 +26,9 @@ https://github.com/rosinality/glow-pytorch
 
 https://blog.openai.com/glow/
 
+### Code
+https://github.com/openai/glow
+
 ## Models
 
 https://github.com/modulabs/Deep-Generative-Models/blob/master/1st/7.%20Flow-based%20Models%20-%20Practice/glow-pytorch/models.txt
