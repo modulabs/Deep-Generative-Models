@@ -30,8 +30,10 @@ Progression of samples during training. Sampled once per 100 iterations during t
 
 https://github.com/rosinality/glow-pytorch
 
-
-
 ## Demo
 
 https://blog.openai.com/glow/
+
+## Models
+
+https://github.com/modulabs/Deep-Generative-Models/blob/master/1st/7.%20Flow-based%20Models%20-%20Practice/glow-pytorch/models.txt
