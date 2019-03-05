@@ -5,9 +5,22 @@
 
 ## 참고자료
 ### 논문
-  + Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
-  https://arxiv.org/abs/1511.06434
+  + **Generative Adversarial Nets**<br/>
+  **http://papers.nips.cc/paper/5423-generative-adversarial-nets**
+  + Unrolled Generative Adversarial Networks<br/>
+  https://arxiv.org/abs/1611.02163
+  + Wasserstein GAN<br/>
+  https://arxiv.org/abs/1701.07875
+  + f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization<br/>
+  https://arxiv.org/abs/1606.00709
+  + Adversarial Feature Learning<br/>
+  https://arxiv.org/abs/1605.09782
+  + **Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**<br/>
+  **https://arxiv.org/abs/1703.10593**
+  
 
 ### 슬라이드
 
 ### 블로그
+  + **How to Train a GAN? Tips and tricks to make GANs work**
+  **https://github.com/soumith/ganhacks**
