@@ -7,4 +7,5 @@
   + 윤재영 LSGAN <br/>
   + 곽유영 WGAN <br/>
   + 박수철 Spectral Normalization <br/>
+  + [송주영 Spectral Normalization(fashion_mnist ver.)](https://colab.research.google.com/github/bt22dr/deep-learning-papers/blob/master/code/sngan_fashion_mnist.ipynb) <br/>
  
