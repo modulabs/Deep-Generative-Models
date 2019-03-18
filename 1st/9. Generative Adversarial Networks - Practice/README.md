@@ -1,4 +1,4 @@
-# 7.Flow-based Models - 실습
+# 9.Generative Adversarial Networks - 실습
 ## 구현 모델
   + 김낙일 GAN <br/>
   + 소준섭 f-GAN <br/>
