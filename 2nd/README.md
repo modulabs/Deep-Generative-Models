@@ -1,4 +1,9 @@
 1기 (19.01.07 ~ 19.03.25)
 * participant : 곽유영, 변준석, 한상훈, 박정현, 홍순근, 전준형, 오영민, 신승욱, 채종서, 유남구, 이창호, 박정환, 최동헌, 김낙일, 백경욱, 염기웅, 송주영, 성유진, 윤재영, 박수철(facil)
 
-![curriculum](./pics/curriculum.jpg)
+![1](./pics/1.png){: width="100%"}
+![2](./pics/2.png)
+![3](./pics/3.png)
+![4](./pics/4.png)
+![5](./pics/5.png)
+![6](./pics/6.png)
